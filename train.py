@@ -11,7 +11,7 @@ def main():
     DATA_DIR = "./data" 
     EPOCHS = 50
     BATCH_SIZE = 64
-    P_WINDOW = 20
+    P_WINDOW = 41
     LR = 1e-3 # 논문 Table II: 10^-4지만 학습 속도 위해 조정 가능
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
